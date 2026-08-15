@@ -393,13 +393,13 @@
       <div class="proj-card reveal">
         <div class="proj-row"><span class="n">02</span>row</div>
         <div>
-          <div class="proj-title">Customer Churn Prediction <span class="proj-status">complete</span></div>
-          <p class="proj-desc">Logistic regression churn model with cost-optimal threshold tuning instead of a default 0.5 cutoff — trading a small precision loss for recall that catches more at-risk customers before they leave. Delivered as a 3-page Power BI dashboard for a non-technical stakeholder read.</p>
-          <div class="proj-metrics">
-            <span class="metric">93% recall</span>
-            <span class="metric">$139.88K revenue at risk identified</span>
-            <span class="metric">3-page Power BI dashboard</span>
-          </div>
+        <div class="proj-title">Customer Churn Prediction <span class="proj-status">complete</span></div>
+        <p class="proj-desc">Rebuilt from three overlapping notebooks into a single leak-safe pipeline after discovering target-leakage columns inflating early results. Ran 5-fold stratified cross-validation, tuned Logistic Regression and Random Forest, and built a business cost function to find the cost-minimizing decision threshold (0.22, not the default 0.5) — validated once, honestly, on a held-out test set.</p>
+        <div class="proj-metrics">
+          <span class="metric">94% recall</span>
+          <span class="metric">84% cost reduction vs. no intervention</span>
+          <span class="metric">3-page Power BI dashboard</span>
+        </div>
           <div class="proj-tags">
             <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Power BI</span>
           </div>
